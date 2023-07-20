@@ -1,11 +1,11 @@
 void main() {
   final colors = ['grey', 'brown'];
-  const addBlue  = false;
+  const addBlue = false;
   const addRed = true;
-  if(addBlue){
+  if (addBlue) {
     colors.add('blue');
   }
-  if(addRed){
+  if (addRed) {
     colors.add('red');
   }
   print(colors);
